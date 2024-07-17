@@ -8,8 +8,8 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-    title: "My Site",
-    tagline: "Dinosaurs are cool",
+    title: "برنامه سازی پیشرفته",
+    tagline: "پیشرفته در برنامه نویسی عا",
     favicon: "img/favicon.ico",
 
     // Set the production url of your site here
@@ -77,7 +77,7 @@ const config = {
             // Replace with your project's social card
             image: "img/docusaurus-social-card.jpg",
             navbar: {
-                title: "My Site",
+                title: "برنامه سازی پیشرفته",
                 logo: {
                     alt: "My Site Logo",
                     src: "img/logo.svg",
@@ -85,11 +85,17 @@ const config = {
                 items: [
                     {
                         type: "docSidebar",
+                        sidebarId: "courseSidebar",
+                        position: "left",
+                        label: "محتوای درس",
+                    },
+                    {
+                        type: "docSidebar",
                         sidebarId: "tutorialSidebar",
                         position: "left",
-                        label: "Tutorial",
+                        label: "آموزش ها",
                     },
-                    { to: "/blog", label: "Blog", position: "left" },
+                    { to: "/blog", label: "مجله", position: "left" },
                     {
                         href: "https://github.com/facebook/docusaurus",
                         label: "GitHub",
