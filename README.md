@@ -1,43 +1,20 @@
-# Website
+# سایت برنامه سازی پیشرفته دانشگاه تهران!
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+این سایت با استفاده از [Docusaurus](https://docusaurus.io/) که یک سایت ساز مدرن است ساخته شده است.
 
-
-### Installation
-
+### ویرایش سایت
+برای ویرایش این سایت کافیست این مخزن را کلون کنید و سپس فایل های مارک داون داخل فولدر های docs و blog را ویرایش نمایید.
 ```
-$ yarn
+$ git clone https://github.com/erfanasgari21/ap-website.git
 ```
+در صورتی که تغییرات شما روی شاخه `main` پذیرفته شود، مستقیما روی سایت دیپلوی می‌گردد.
 
-### Local Development
-
+### اجرای پیش نمایش
+ برای اجرای پیش نمایش لوکال این سایت، باید رانتایم node و پکیج منیجر npm را روی سیستم خود داشته باشید. سپس وارد مخزن کلون شده شوید و پکیج های آن را نصب نمائید:
 ```
-$ yarn start
+$ npm install
 ```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
+سپس با دستور زیر آن را روی لوکال هاست اجرا نمایید و مشاهده کنید:
 ```
-$ yarn build
+$ npm run start
 ```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
-#
