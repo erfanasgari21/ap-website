@@ -7,7 +7,16 @@ sidebar_position: 1
 import ReactPlayer from 'react-player'
 
 
-<ReactPlayer playing controls url='https://ramtung.ir/ap/01-CPPBasics/1-BasicIO.mp4' />
+<ReactPlayer 
+width={"100%"}
+height={"100%"}
+style={{
+  width: '100%',
+    boxSizing: 'border-box',
+    '@media (min-width: 768px)': {
+      width: '80%',
+    },
+}} playing controls url='https://ramtung.ir/ap/01-CPPBasics/1-BasicIO.mp4' />
 
 
 
