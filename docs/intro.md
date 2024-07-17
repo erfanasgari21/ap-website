@@ -2,6 +2,10 @@
 sidebar_position: 1
 ---
 
+<video width="800" controls>
+  <source src="https://ramtung.ir/ap/01-CPPBasics/1-BasicIO.mp4"/>
+</video>
+
 # Tutorial Intro
 
 Let's discover **Docusaurus in less than 5 minutes**.
