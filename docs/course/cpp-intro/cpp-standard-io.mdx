@@ -4,21 +4,12 @@ sidebar_position: 1
 
 # ورودی و خروجی پایه در ++C
 
-export const VideoContainer = ({ children }) => (
-  <video style={{ 
-    width: '100%',
-    boxSizing: 'border-box',
-    '@media (min-width: 768px)': {
-      width: '80%',
-    },
-     }}>
-    {children}
-  </video>
-);
+import ReactPlayer from 'react-player'
 
-<VideoContainer controls>
-  <source src="https://ramtung.ir/ap/01-CPPBasics/1-BasicIO.mp4"/>
-</VideoContainer>
+
+<ReactPlayer playing controls url='https://ramtung.ir/ap/01-CPPBasics/1-BasicIO.mp4' />
+
+
 
 Docusaurus can manage multiple versions of your docs.
 
