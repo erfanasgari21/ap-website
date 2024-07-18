@@ -1,11 +1,3 @@
-
-https://ramtung.ir/ap/11-ClassMemoryManagement/ClassMemMgmt-1.mp4
-https://ramtung.ir/ap/11-ClassMemoryManagement/ClassMemMgmt-2.mp4
-https://ramtung.ir/ap/11-ClassMemoryManagement/ClassMemMgmt-3.mp4
-https://ramtung.ir/ap/12-LinkedList/LinkedList-1-1.mp4
-https://ramtung.ir/ap/12-LinkedList/LinkedList-1-2.mp4
-https://ramtung.ir/ap/12-LinkedList/LinkedList-2-1.mp4
-https://ramtung.ir/ap/12-LinkedList/LinkedList-2-2.mp4
 https://ramtung.ir/ap/13-Templates-FuncPtrs/FuncPtr-1-1.mp4
 https://ramtung.ir/ap/13-Templates-FuncPtrs/FuncPtr-1-2.mp4
 https://ramtung.ir/ap/13-Templates-FuncPtrs/Templates-1-1.mp4
