@@ -8,7 +8,7 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-    title: "برنامه سازی پیشرفته",
+    title: "برنامه‌سازی پیشرفته",
     tagline: "پیشرفته در برنامه نویسی عا",
     favicon: "img/favicon.ico",
 
@@ -75,7 +75,7 @@ const config = {
             // Replace with your project's social card
             image: "img/docusaurus-social-card.jpg",
             navbar: {
-                title: "برنامه سازی پیشرفته",
+                title: "برنامه‌سازی پیشرفته",
                 logo: {
                     alt: "My Site Logo",
                     src: "img/logo.svg",
